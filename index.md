@@ -4,6 +4,9 @@ koottu/kootaan tavanomaisimpia feministien esittämiä argumentteja,
 tarkastellaan näitä argumentteja kriittisesti ja listataan argumenttien
 puolesta ja niitä vastaan puhuvia lähteitä.
 
+HUOM: Feminismi on laaja ja moniulotteinen aatekokonaisuus, eivätkä kaikki sen
+suuntaukset edusta kaikkia tällä sivustolla esitettyjä näkemyksiä.
+
 # Argumentit
 
 - Feminismi tarkoittaa samaa kuin tasa-arvo
