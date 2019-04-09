@@ -15,6 +15,7 @@ suuntaukset edusta kaikkia tällä sivustolla esitettyjä näkemyksiä.
   rodullistettuja tai ainakin joitakin niistä
 - Feminismi on rakkauden ideologia
 - Sukupuolia on enemmän kuin kaksi
+- Sukupuoli on sosiaalinen konstruktio
 - Miesten ja naisten älykkyydessä ei ole eroa
 - Valkoinen heteromies on aina etuoikeutettu
 - Kaikki valkoihoiset ovat rasisteja
