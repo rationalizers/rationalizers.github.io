@@ -7,7 +7,7 @@ puolesta ja niitä vastaan puhuvia lähteitä.
 # Argumentit
 
 - Feminismi tarkoittaa samaa kuin tasa-arvo
-- Naisten euro on 76 senttiä
+- Naisen euro on 76 senttiä
 - Valkoinen patriarkaatti sortaa naisia, seksuaalivähemmistöjä ja
   rodullistettuja tai ainakin joitakin niistä
 - Feminismi on rakkauden ideologia
