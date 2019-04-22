@@ -128,10 +128,6 @@ ssh-keygen.exe -t rsa -b 2048 -f ~/.ssh/github-key
 
 Jos haluat suojata avaimen salasanalla, voit tehdä niin.
 
-Avainparin generoimisen pitäisi näyttää sunnilleen tältä:
-
-![SSH-avainparin generoiminen.](/images/posts/wingit-gen-ssh-key.png "Kuva SSH-avainparin generoimisesta Windowsissa")
-
 ## GitHub-tilin luominen (ellei sinulla jo ole tiliä)
 
 Mene GitHubin [etusivulle](https://github.com/), ja luo oma tili (Sign up for
