@@ -66,7 +66,7 @@ täytettyä eli että myös tarvittavat muut ohjelmistot (kuten OpenSSL)
 asennetaan.
 
 Seuraavalla komennolla voit tarkistaa, että ko. ohjelmat ovat käyttämässäsi
-järjestelmässä asennettuina<sup>[1](#fn1)</sup>:
+järjestelmässä asennettuina<sup>[1](#which)</sup>:
 
 ~~~
 which git ssh ssh-keygen
@@ -82,15 +82,13 @@ Lataa Git-ohjelmisto sivulta <https://git-scm.com/download/win>.
 - Vastaa kysymykseen "Do you want to run this software" myöntävästi.
 - Hyväksy GNU:n lisenssi.
 - Valitse asennushakemisto ja Start menu -hakemisto  (jätä oletukset).
-- Valitse seuraavat asennusoptiot[^aoptiot]:
+- Valitse seuraavat asennusoptiot<sup>[2](#aoptiot)</sup>:
     - "**Use Git from Windows Command Prompt**"
     - "**Use the OpenSSL library**"
     - "**Checkout Windows-style, commit Unix-style line endings**"
     - "**Use Windows' default console window**"
     - "**Enable file system caching**"
 - Ja paina lopuksi"**Install**".
-
-[^aoptiot]: Git on toki mahdollista saada toimimaan muillakin konfiguraatioilla, mutta ainakin näillä optioilla sen pitäisi toimia.
 
 Näiden vaiheiden jälkeen asennusohjelman pitäisi ilmoittaa, että Git-ohjelmisto
 on onnistuneesti asennettu.
@@ -107,9 +105,7 @@ ssh-keygen -t rsa -b 2048 -f ~/.ssh/github-key
 ~~~
 
 Halutessasi voit antaa avaimelle salasanan, mutta se ei ole
-välttämätöntä[^passu].
-
-[^passu]: Yksityisten avainten salasanojen tarpeellisuudesta ks. esim. <https://www.qubes-os.org/doc/split-gpg/> "the so-often-used passphrases on private keys are pretty meaningless because the attacker can easily set up a simple backdoor which would wait until the user enters the passphrase and steal the key then". 
+välttämätöntä<sup>[3](#:passu)</sup>.
 
 ### Avainparin luominen Windows-ympäristössä
 
@@ -317,4 +313,8 @@ request](#pull-request).
 
 # Viitteet
 
-<a name="fn1">1</a>: which-komento etsii parametrina saamiensa komentojen tiedostopolut ja tulostaa ne. Ellei järjestelmässä ole sen parametrina saamaa komentoa, se ei tulosta ko. komennon osalta mitään vaan asettaa paluuarvoksi "1".
+<a name="which">1</a>: which-komento etsii parametrina saamiensa komentojen tiedostopolut ja tulostaa ne. Ellei järjestelmässä ole sen parametrina saamaa komentoa, se ei tulosta ko. komennon osalta mitään vaan asettaa paluuarvoksi "1".
+
+<a name="aoptiot">2</a>: Git on toki mahdollista saada toimimaan muillakin konfiguraatioilla, mutta ainakin näillä optioilla sen pitäisi toimia.
+
+<a name="passu">3</a>: Yksityisten avainten salasanojen tarpeellisuudesta ks. esim. <https://www.qubes-os.org/doc/split-gpg/> "the so-often-used passphrases on private keys are pretty meaningless because the attacker can easily set up a simple backdoor which would wait until the user enters the passphrase and steal the key then". 
