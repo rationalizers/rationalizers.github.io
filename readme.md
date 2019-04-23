@@ -1,3 +1,6 @@
+Tämä on sivuston <https://rationalizers.github.io/> readme-tiedosto, joka
+sisältää ohjeet sivuston sisällön editointiin.
+
 # Disclaimer
 
 ## EN:
@@ -18,7 +21,7 @@ ketään yksilöä tai ryhmää kohtaan.
 
 # Osallistuminen sisällön editointiin
 
-Tämä sivuston editointiin on tervetullut osallistumaan kuka tahansa, jolla on
+Editointiin on tervetullut osallistumaan kuka tahansa, jolla on
 tietoa feministisestä argumentaatiosta ja sen taustalla olevista premisseistä.
 
 Osallistuminen on mahdollista täältä GitHubin kautta seuraavalla tavalla
