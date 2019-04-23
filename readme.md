@@ -66,13 +66,11 @@ täytettyä eli että myös tarvittavat muut ohjelmistot (kuten OpenSSL)
 asennetaan.
 
 Seuraavalla komennolla voit tarkistaa, että ko. ohjelmat ovat käyttämässäsi
-järjestelmässä asennettuina[^which]:
+järjestelmässä asennettuina<sup>[1](#fn1)</sup>:
 
 ~~~
 which git ssh ssh-keygen
 ~~~
-
-[^which]: which-komento etsii parametrina saamiensa komentojen tiedostopolut ja tulostaa ne. Ellei järjestelmässä ole sen parametrina saamaa komentoa, se ei tulosta ko. komennon osalta mitään vaan asettaa paluuarvoksi "1".
 
 ### Git-ohjelmiston asentaminen Windows-ympäristössä
 
@@ -314,3 +312,9 @@ git push origin master
 Tämän jälkeen voit ehdottaa omaan "forkattuun" repositorioosi tekemiäsi
 muutoksia lisättäväksi päärepositorioon, kuten yllä kohdassa [Pull
 request](#pull-request).
+
+* * *
+
+# Viitteet
+
+<a name="fn1">1</a>: which-komento etsii parametrina saamiensa komentojen tiedostopolut ja tulostaa ne. Ellei järjestelmässä ole sen parametrina saamaa komentoa, se ei tulosta ko. komennon osalta mitään vaan asettaa paluuarvoksi "1".
