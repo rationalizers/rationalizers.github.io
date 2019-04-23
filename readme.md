@@ -78,7 +78,7 @@ which git ssh ssh-keygen
 
 Lataa Git-ohjelmisto sivulta <https://git-scm.com/download/win>.
 
-![Git-ohjelmiston lataaminen ja asentaminen.](/images/posts/wingit-install-run.png "Ruutukaappaus tiedoston latauksesta")
+![Git-ohjelmiston lataaminen ja asentaminen.](/images/wingit-install-run.png "Ruutukaappaus tiedoston latauksesta")
 
 - Valitse heti latauksen jälkeen "**Run**".
 - Vastaa kysymykseen "Do you want to run this software" myöntävästi.
@@ -120,7 +120,7 @@ SSH-avainpari täytyy generoida komentoriviltä.
 
 Käynnistä siis Start-valikon kautta Git Bash:
 
-![Git Bashin käynnistäminen Start-valikon kautta.](/images/posts/wingit-start-git-bash.png "Kuva Start-valikosta")
+![Git Bashin käynnistäminen Start-valikon kautta.](/images/wingit-start-git-bash.png "Kuva Start-valikosta")
 
 Generoi SSH-avainpari antamalla Git Bashissa seuraavat komennot:
 
