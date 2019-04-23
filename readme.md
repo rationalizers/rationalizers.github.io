@@ -82,7 +82,7 @@ Lataa Git-ohjelmisto sivulta <https://git-scm.com/download/win>.
 - Vastaa kysymykseen "Do you want to run this software" myöntävästi.
 - Hyväksy GNU:n lisenssi.
 - Valitse asennushakemisto ja Start menu -hakemisto  (jätä oletukset).
-- Valitse seuraavat asennusoptiot<sup>[2](#aoptiot)</sup>:
+- Valitse seuraavat asennusoptiot:
     - "**Use Git from Windows Command Prompt**"
     - "**Use the OpenSSL library**"
     - "**Checkout Windows-style, commit Unix-style line endings**"
@@ -105,7 +105,7 @@ ssh-keygen -t rsa -b 2048 -f ~/.ssh/github-key
 ~~~
 
 Halutessasi voit antaa avaimelle salasanan, mutta se ei ole
-välttämätöntä<sup>[3](#:passu)</sup>.
+välttämätöntä<sup>[2](#passu)</sup>.
 
 ### Avainparin luominen Windows-ympäristössä
 
@@ -315,6 +315,4 @@ request](#pull-request).
 
 <a name="which">1</a>: which-komento etsii parametrina saamiensa komentojen tiedostopolut ja tulostaa ne. Ellei järjestelmässä ole sen parametrina saamaa komentoa, se ei tulosta ko. komennon osalta mitään vaan asettaa paluuarvoksi "1".
 
-<a name="aoptiot">2</a>: Git on toki mahdollista saada toimimaan muillakin konfiguraatioilla, mutta ainakin näillä optioilla sen pitäisi toimia.
-
-<a name="passu">3</a>: Yksityisten avainten salasanojen tarpeellisuudesta ks. esim. <https://www.qubes-os.org/doc/split-gpg/> "the so-often-used passphrases on private keys are pretty meaningless because the attacker can easily set up a simple backdoor which would wait until the user enters the passphrase and steal the key then". 
+<a name="passu">2</a>: Yksityisten avainten salasanojen tarpeellisuudesta ks. esim. <https://www.qubes-os.org/doc/split-gpg/> "the so-often-used passphrases on private keys are pretty meaningless because the attacker can easily set up a simple backdoor which would wait until the user enters the passphrase and steal the key then". 
