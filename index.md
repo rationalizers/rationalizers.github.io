@@ -19,3 +19,4 @@ suuntaukset edusta kaikkia tällä sivustolla esitettyjä näkemyksiä.
 - Miesten ja naisten älykkyydessä ei ole eroa
 - Valkoinen heteromies on aina etuoikeutettu
 - Kaikki valkoihoiset ovat rasisteja
+- "Freedom of speech" on eri asia kuin "freedom from consequence"
